@@ -1,9 +1,15 @@
 html {
     box-sizing: border-box;
+    font-family: 'Karla';
+    font-size: 16px;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+body {
+    padding: 20px;
 }
 
 h2, h4, p {
@@ -11,35 +17,108 @@ h2, h4, p {
 }
 
 #main-card {
-    border: 3px solid black;
+    /* border: 3px solid black; */
     height: 400px;
     width: 650px;
+    box-shadow: 3px 2px 8px 0px rgba(0,0,0,0.36);
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 #top-container {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 100%;
-    height: 40%;
+    height: 45%;
+    padding: 25px;
+}
+
+#top-container h2 {
+    color: #2ab2af;
+    margin-bottom: 15px;
+}
+
+#top-container h4{
+    color: #c0df34;
+    margin-bottom: 10px;
+}
+
+#top-container p{
+    color: #d5e1e8;
 }
 
 #bottom-container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
-    height: 60%;
+    height: 55%;
+    color: white;
 }
 
 #bottom-left {
     display: inline-block;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 50%;
     height:100%;
     vertical-align: top;
+    background-color: #2ab2af;
+    padding: 25px;
+}
+
+#bottom-left h4{
+    margin-bottom: 10px;
+}
+
+#bottom-left p{
+    font-size: 0.8rem;
+}
+
+#period, #price{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#period{
+    position: relative;
+    top: -2px;
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-left: 5px;
+}
+
+button{
+    color: white;
+    border: none;
+    background-color: #c0df34;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 3px 2px 8px 0px rgba(0,0,0,0.36);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #A9C42D;
+    transform: scale(1.02);
+}
+
+#price{
+    font-weight: 700;
+    font-size: 1.4rem;
 }
 
 #bottom-right {
     display: inline-block;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     width: 50%;
     height: 100%;
     vertical-align: top;
+    background-color: #1ac9c5;
+    padding: 25px;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    font-size: 0.8rem;
+    opacity: 0.8;
 }
