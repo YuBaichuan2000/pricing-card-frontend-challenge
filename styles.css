@@ -6,6 +6,10 @@ html {
     box-sizing: inherit;
 }
 
+h2, h4, p {
+    margin: 0;
+}
+
 #main-card {
     border: 3px solid black;
     height: 400px;
@@ -29,6 +33,7 @@ html {
     border: 2px solid blue;
     width: 50%;
     height:100%;
+    vertical-align: top;
 }
 
 #bottom-right {
@@ -36,4 +41,5 @@ html {
     border: 2px solid purple;
     width: 50%;
     height: 100%;
+    vertical-align: top;
 }
