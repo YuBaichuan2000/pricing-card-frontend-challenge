@@ -122,3 +122,14 @@ ul{
     font-size: 0.8rem;
     opacity: 0.8;
 }
+
+@media (max-width: 650px){
+    #bottom-left, #bottom-right{
+        width: 100%;
+    }
+
+    #main-card{
+        height: auto;
+        width: 100%;
+    }
+}
