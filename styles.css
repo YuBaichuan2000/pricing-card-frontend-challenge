@@ -17,11 +17,13 @@ h2, h4, p {
 }
 
 #main-card {
+    margin: 0 auto;
     height: 400px;
     width: 650px;
     box-shadow: 3px 2px 8px 0px rgba(0,0,0,0.36);
     border-radius: 5px;
     overflow: hidden;
+    margin-bottom: 50px;
 }
 
 #top-container {
